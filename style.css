@@ -1,0 +1,476 @@
+@font-face {
+    font-family: euclidb;
+    src: url(fonts/Euclid-B/Euclid\ Circular\ B\ Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'euclidb';
+}
+
+body {
+    font-family: euclidb;
+    color: #030303;
+    /* background-image: url("page background 2.svg"); */
+    /* background-repeat: no-repeat; */
+    /* background-color: #fefefe; */
+    background-size: 100%;
+}
+
+main {
+    background-image: url(BACKGROUNDS/nav\ hero\ find\ bg\ 1.svg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+nav {
+    background: #fefefe;
+    height: 60px;
+    width: 100%;
+    /* position: fixed; */
+    box-shadow: 0px 4px 16px -4px rgba(3, 3, 3, 0.25);
+}
+
+.logo {
+    width: 140px;
+    /* max-width: 240px; */
+    margin: 5px 25px;
+}
+
+header > nav > ul {
+    float: right;
+    display: flex;
+    align-items: center;
+    padding: 0 24px ;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0;
+}
+
+header > nav > ul > li > a {
+    color: #030303;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+}
+
+header > nav > ul > li > a:hover {
+    background-image: linear-gradient(#FF8008, #FFC837);
+    -webkit-background-clip: text;
+    /* remove these 2 codes (webkit... & color...) to make "box hovering" rather than text hovering */
+    color: transparent;
+    transition: .5s;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 7vw;
+    font-style: normal;
+    font-weight: 700;
+    max-width: 650px;
+    margin: 0;
+    /* line-height: 81px; */
+}
+
+h2.find {
+    font-size: 5.007vw;
+    font-weight: 700;
+    background-image: linear-gradient(#FF8008, #FFC837);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+h3 {
+    font-size: 3.2vw;
+    font-weight: 700;
+    color: #030303;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.7vw;
+    font-weight: 700;
+    color: #fefefe;
+    margin-left: 2%;
+}
+
+h5 {
+    font-size: 2.4vh;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+p {
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 167%;
+    /* or 30px */
+}
+
+p.text-center {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #030303;
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 8px 8px 8px 0px;
+    padding: 10px 35px;
+    background-image: linear-gradient(#FF8008, #FFC837);
+    color: #fefefe;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.btn2, .dropdown-toggle {
+    border-style: solid;
+    border-radius: 8px 8px 8px 0px;
+    padding: 10px 15px;
+    background-color: #fefefe;
+    font-size: 1.4vw;
+    border-width: 0px;
+    box-shadow: 0px 4px 16px -4px rgba(3, 3, 3, 0.25);
+}
+
+.btn3 {
+    border-radius: 0px 8px 8px 0px;
+    padding: 10px 35px;
+    background-image: linear-gradient(#FF8008, #FFC837);
+    color: #fefefe;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+    border: 0px;
+    box-shadow: 0px 4px 16px -4px rgba(3, 3, 3, 0.15);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#searchbar {
+    width: 50%;
+    border-width: 0px;
+    box-shadow: 0px 4px 16px -4px rgba(3, 3, 3, 0.25);
+}
+
+.btn2-group {
+    display: flex;
+    column-gap: 20px;
+}
+
+.dropdown-menu {
+    padding: 30px;
+}
+
+.dropdown-menu.show {
+    display: flex;
+    gap: 60px;
+    width: 614px;
+}
+
+.dropdown-menu.dropdown-menu-end.show {
+    width: 750px;
+}
+
+.location-items {
+    padding: 5px 0;
+}
+
+.form-check {
+    padding: 5px 0 5px 25px;
+}
+
+.billboard {
+    width: 100%;
+}
+
+.hero {
+    padding: 30px;
+}
+
+.hero .col-md-6 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero p {
+    max-width: 650px;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.9vw;
+    line-height: 167%;
+    /* or 30px */
+    padding: 30px 0;
+    margin: 0;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 80px 40px;
+    row-gap: 40px;
+}
+
+.card-values {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 70px 30px 100px;
+}
+
+.card-values > .card {
+    width: 30rem;
+}
+
+.card-values > .card > .card-body {
+    border-style: solid;
+    border-radius: 8px 8px 8px 0px;
+    border-width: 1.5px;
+    padding: 40px 0px;
+}
+
+.card-values > .card > .card-body > p {
+    text-align: center;
+    padding: 0px 25px;
+}
+
+.card-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 80px;
+    width: 85%;
+    margin: auto;
+}
+
+.card-img-overlay {
+    display: flex;
+    align-items: flex-end;
+    background: linear-gradient(180deg, rgba(255, 178, 28, 0) 66.67%, rgba(247, 148, 30, 0.9) 100%);
+}
+
+.card-img-overlay > .card-title, .card-img-overlay > .card-title > p {
+    margin-bottom: 0;
+}
+
+.teams {
+    padding-bottom: 40px;
+}
+
+.third-section {
+    background-image: url(BACKGROUNDS/SEE\ MORE\ BG\ 2.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    padding: 40px 0;
+}
+
+p a:hover{
+    color:#ff9d00;
+    text-decoration: none;
+}
+
+.row.g-0 {
+    margin: auto;
+}
+
+.card.mb-3 {
+    border-style: none;
+    border-radius: 0px;
+    padding: 30px;
+    /* align-items: center; */
+    background-image: linear-gradient(#FFC837, #FF8008);
+}
+
+.card.mb-3 .col-md-5, .card.mb-3 .col-md-7  {
+    margin: auto;
+}
+
+main > .row {
+    /* background-color: green; */
+    padding: 50px;
+}
+
+.news {
+    padding: 30px;
+    background-color: #fefefe;
+    border-radius: 8px 0 0;
+    box-shadow: inset -2px -2px 4px rgba(3, 3, 3, 0.15);
+}
+
+th {
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.headline {
+    color: #F7941E;
+    font-size: 2.4vh;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+tbody p {
+    font-size: 1.5vw;
+    color: #030303;
+    padding: 0px;
+    font-size: 1.8vh;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.date{
+    text-align: right;
+}
+
+.footer {
+    background-color: #030303;
+    padding: 40px;
+    color: #fefefe;   
+}
+
+.footer > .row > .col-md-4 > ul {
+    font-size: 1.8vh;
+    padding: 0;
+}
+
+.footer > .row > .col-md-4 > ul > li > a {
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.footer > .row > .col-md-4 > ul > li > a:hover {
+    background-image: linear-gradient(#FF8008, #FFC837);
+    -webkit-background-clip: text;
+    /* remove these 2 codes (webkit... & color...) to make "box hovering" rather than text hovering */
+    color: transparent;
+    transition: .5s;
+    text-decoration: underline;
+}
+
+/* body {
+    background-image: url(BACKGROUNDS/Noise.png);
+} */
+
+.contactus-body, .comingsoon-body {
+    margin: 0 100px 50px;
+}
+
+.Soon {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 99px;
+}
+
+.contactus-hero > .row, .comingsoon-hero > .row {
+    margin: auto;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+.contactus-hero .col-md-7 , .contactus-hero .col-md-5{
+    padding: 0;
+}
+
+.contactus-hero > .row > .col-md-5 > img , .comingsoon-hero > .row > .col-md-5 > img  {
+    float: right;
+}
+
+.contactus-form > .row {
+    padding: 10px 0;
+    margin: auto;
+}
+
+.contactus-form > h3 {
+    color: #030303;
+    text-align: left;
+    font-weight: 100;
+}
+
+.contactus-form > .row > .col-md-6 {
+    padding: 0 10px 0 0;
+}
+
+.contactus-form > button {
+    margin-top: 10px;
+    border-radius: 8px 8px 8px 0px;
+    border-style: none;
+    padding: 10px 35px;
+    background-image: linear-gradient(#FF8008, #FFC837);
+    color: #fefefe;
+}
+
+.contactus-card > .row {
+    margin: auto;
+    margin-top: 70px;
+    background-image: linear-gradient(#FF8008, #FFC837);
+    align-items: center;
+}
+
+.contactus-card > .row > .col-md-8 {
+    padding: 0 0 0 40px;
+    height: 150px;
+}
+
+.contactus-card > .row > .col-md-8 > h2 {
+    text-align: left;
+}
+
+.contactus-card .col-md-4, .contactus-card img{
+    padding: 0;
+    float: right;
+}
+
+.btn4 {
+    border: solid 0.1px;
+    border-radius: 8px 8px 8px 0px;
+    padding: 15px;
+}
+
+.small {
+    text-align: center;
+}

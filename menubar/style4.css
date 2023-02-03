@@ -1,0 +1,16 @@
+.dropdown-menu {
+    padding: 30px;
+}
+
+.dropdown-menu.show {
+    display: flex;
+    gap: 80px;
+}
+
+.location-items {
+    padding: 5px 0;
+}
+
+.form-check {
+    padding: 5px 0 5px 25px;
+}

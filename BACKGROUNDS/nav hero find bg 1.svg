@@ -1,0 +1,45 @@
+<svg width="1440" height="1858" viewBox="0 0 1440 1858" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_929_248)">
+<rect y="-1" width="1440" height="900" fill="url(#paint0_linear_929_248)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M746.169 73.0166C757.051 -2.07389 692.51 -81.4137 728.299 -148.317C764.736 -216.431 850.291 -239.308 924.576 -260.49C996.479 -280.993 1072.68 -291.184 1143.31 -266.656C1213.09 -242.423 1257.1 -180.251 1308.48 -127.173C1369.92 -63.6955 1478.47 -15.0973 1472.09 73.0166C1465.62 162.541 1339.31 185.013 1280.95 253.208C1229.83 312.937 1225.02 411.696 1153.79 444.95C1080.92 478.964 998.462 437.526 919.581 421.898C827.878 403.729 698.21 430.157 656.6 346.443C612.84 258.405 732.069 170.314 746.169 73.0166Z" fill="url(#paint1_linear_929_248)"/>
+<circle cx="-17" cy="661" r="99.5" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle cx="33" cy="661" r="149.5" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle cx="83" cy="661" r="199.5" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle cx="133" cy="661" r="249.5" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle cx="183" cy="661" r="299.5" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle cx="233" cy="661" r="349.5" stroke="#FF8008" stroke-opacity="0.5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1.81056 450.6C53.1604 453.49 104.771 486.646 128.111 532.476C149.53 574.536 102.404 623.943 113.457 669.83C122.814 708.681 185.2 723.393 183.713 763.327C182.279 801.868 142.975 832.39 106.9 846.031C73.9022 858.508 39.5826 825.359 4.75768 830.993C-41.6458 838.501 -76.5202 892.728 -122.541 883.151C-170.681 873.133 -206.67 828.265 -225.873 782.999C-245.915 735.756 -245.256 681.424 -228.73 632.84C-212.428 584.919 -175.314 549.024 -135.604 517.634C-94.6199 485.236 -50.3498 447.664 1.81056 450.6Z" fill="url(#paint2_linear_929_248)"/>
+</g>
+<rect y="1350" width="1440" height="508" fill="#FEFEFE"/>
+<rect y="899" width="1440" height="501" fill="#FEFEFE"/>
+<circle r="49.5" transform="matrix(-1 0 0 1 1475 1350)" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle r="99.5" transform="matrix(-1 0 0 1 1425 1350)" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle r="149.5" transform="matrix(-1 0 0 1 1375 1350)" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle r="199.5" transform="matrix(-1 0 0 1 1325 1350)" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle r="249.5" transform="matrix(-1 0 0 1 1275 1350)" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle r="299.5" transform="matrix(-1 0 0 1 1225 1350)" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle r="349.5" transform="matrix(-1 0 0 1 1175 1350)" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle cx="-17" cy="661" r="99.5" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle cx="33" cy="661" r="149.5" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle cx="83" cy="661" r="199.5" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle cx="133" cy="661" r="249.5" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle cx="183" cy="661" r="299.5" stroke="#FF8008" stroke-opacity="0.5"/>
+<circle cx="233" cy="661" r="349.5" stroke="#FF8008" stroke-opacity="0.5"/>
+<defs>
+<linearGradient id="paint0_linear_929_248" x1="720" y1="-1" x2="720" y2="899" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE7A8"/>
+<stop offset="0.459613" stop-color="#FEFEFE"/>
+</linearGradient>
+<linearGradient id="paint1_linear_929_248" x1="1059.68" y1="458" x2="1059.68" y2="-281" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8008"/>
+<stop offset="1" stop-color="#FFC837"/>
+</linearGradient>
+<linearGradient id="paint2_linear_929_248" x1="-241.323" y1="668.781" x2="182.994" y2="665.493" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8008"/>
+<stop offset="1" stop-color="#FFC837"/>
+</linearGradient>
+<clipPath id="clip0_929_248">
+<rect width="1715" height="1180" fill="white" transform="translate(-243 -281)"/>
+</clipPath>
+</defs>
+</svg>
